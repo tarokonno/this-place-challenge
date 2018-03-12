@@ -12,6 +12,7 @@ Get program running:
 - Issue hosting this program on Github pages due to insecure data requests
 - Had an issue with CORS so installed Allow-Control-Allow-Origin: * extension for chrome to get this working
 - Clone repo and run yarn start or npm start
+- To see working code go to src > App.js
 
 
 Overall Plan:
