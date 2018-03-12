@@ -9,20 +9,38 @@
 }
 
 .form input {
-  padding: 7px;
+  width: 200px;
   outline: none;
-  font-size: 14px;
+  font-size: 12px;
+  line-height: 12px;
+  padding: 10px;
+  margin: 0 10px 0;
 }
 
 .form button {
+  margin: 0;
+  padding: 13px 15px;
   border-radius: 0;
-  padding: 7px;
+  border: 0;
+  font-size: 12px;
+  line-height: 12px;
   box-shadow: none;
+  background: none;
+  background-color: #02c0bf;
+  color: white;
+}
+
+.form button:hover {
+  opacity: 0.8;
+  cursor: pointer;
 }
 
 .answers {
-  
   text-align: left;
+}
+
+.correct, .answer {
+  display: inline;
 }
 
 .question {
@@ -34,5 +52,5 @@
 }
 
 .answer {
-  margin-bottom: 30px;
+  margin: 0 10px 30px;
 }
