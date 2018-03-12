@@ -1,0 +1,38 @@
+.App {
+  text-align: center;
+  width: 500px;
+  margin: 0 auto;
+}
+
+.form {
+  margin-bottom: 40px;
+}
+
+.form input {
+  padding: 7px;
+  outline: none;
+  font-size: 14px;
+}
+
+.form button {
+  border-radius: 0;
+  padding: 7px;
+  box-shadow: none;
+}
+
+.answers {
+  
+  text-align: left;
+}
+
+.question {
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 10px;
+  font-weight: bold;
+  line-height: 1.5;
+  color: #333;
+}
+
+.answer {
+  margin-bottom: 30px;
+}
